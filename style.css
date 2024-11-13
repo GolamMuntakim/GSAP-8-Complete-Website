@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: gilroy;
+    font-family: monospace;
 }
 
 html,body{
@@ -20,7 +20,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:60px 80px;
+    padding:60px 100px;
 }
 
 .part2{
@@ -56,7 +56,7 @@ nav h1 i{
 }
 
 .center{
-    padding: 80px;
+    padding: 70px 100px;
     height: 80%;
     width: 100%;
     display: flex;
@@ -64,16 +64,83 @@ nav h1 i{
 
 .center-part1{
     height: 100%;
-    width: 45%;
-}
-
-.center-part2{
-    height: 100%;
-    width: 55%;
+    width: 44%;
 }
 
 
 .center-part1 h1{
-    font-size: 100px;
-    background-color: red;
+    line-height: 1.1;
+    font-size: 80px;
+    font-family: monospace;
 }
+
+.center-part1 p{
+    font-size : 30px;
+    width : 95%;
+    margin-top : 40px;
+    margin-bottom: 25px;
+}
+
+.center-part1 button{
+    background-color: black;
+    color:#fff;
+    border-radius: 10px;
+    padding: 22px 40px;
+    font-size : 25px;
+    font-weight: 600;
+    border:none
+}
+
+
+.center-part2{
+    height: 100%;
+    width: 56%;
+    position: relative;
+}
+
+.center-part2 img{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+
+.section1bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 120px;
+    margin-top: 30px;
+}
+
+.section1bottom img{
+    height: 60px;
+}
+
+.section2 .services{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:50px;
+    margin-top:30px
+}
+
+.services h3{
+    background-color: #9AE975;
+    font-weight: 500;
+    padding: 5px 10px 3px 10px;
+    border-radius: 5px;
+    font-size : 60px
+}
+
+.services p{
+    width: 40%;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.container{}
